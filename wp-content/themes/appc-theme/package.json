@@ -1,0 +1,21 @@
+{
+	"name": "appc_wordpress",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "NODE_ENV=production webpack -p --watch --config webpack.config.js",
+		"build-production": "NODE_ENV=production webpack -p --config webpack.config.js"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"regenerator-runtime": "^0.13.2",
+		"core-js": "^3.0.1",
+		"@babel/core": "^7.4.3",
+		"@babel/preset-env": "^7.4.3",
+		"babel-loader": "^8.0.5",
+		"uglifyjs-webpack-plugin": "^1.1.2",
+		"webpack": "^3.9.1",
+		"webpack-concat-plugin": "^1.4.2",
+		"lodash.debounce": "^4.0.8",
+		"lodash.throttle": "^4.1.1"
+	}
+}
